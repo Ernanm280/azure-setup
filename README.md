@@ -1,1 +1,79 @@
-# azure-setup
+<img width="884" alt="Screenshot 2025-01-23 at 7 59 52 PM" src="https://github.com/user-attachments/assets/14983237-8b1a-4703-8a5b-d5f0d3e188f9" />
+
+<h1>Azure Virtual Machine Setup</h1>
+
+This repository provides a guide to set up the necessary resources in Azure for our project. The setup includes creating a Resource Group, a Windows 10 Virtual Machine (VM), and a Linux (Ubuntu) Virtual Machine within the same Virtual Network (VNet) and Subnet. These resources will form the foundation for further project work.<br />
+
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+
+<h2>Operating Systems Used </h2>
+
+- Windows 10 (21H2)
+- Ubuntu Server 20.04
+
+<h2>Steps</h2>
+<img width="387" alt="Screenshot 2025-01-23 at 8 10 04 PM" src="https://github.com/user-attachments/assets/886eb6b5-b6c1-4b4b-ae98-8415a69a6a3b" />
+
+
+**1. Access Azure Portal**
+    - Open the [Azure](https://portal.azure.com/) Portal.
+
+**2. Create a Resource Group**
+
+- Navigate to Resource Groups.
+- Select Create.
+- Provide a Resource Group Name and select a region.
+- Click Review + Create and then Create.
+
+<img width="640" height="447" alt="Screenshot 2026-02-23 213928" src="https://github.com/user-attachments/assets/241b7b32-b05e-41a3-8893-21851b2977fc" />
+
+<img width="2055" height="526" alt="Screenshot 2026-02-23 214044" src="https://github.com/user-attachments/assets/3ad5f3e4-677c-44ee-997f-8d974ec29782" />
+
+
+**3. Create a Windows 10 Virtual Machine**
+
+- Navigate to Virtual Machines.
+- Select Create > Virtual Machine.
+- Provide the following details:
+    - Resource Group: Select the Resource Group created earlier.
+    - VM Name: Enter a name for your Windows 10 VM.
+    - Image: Choose "Windows 10".
+    - Authentication Type: Username/Password.
+    - Allow Azure to create a new Virtual Network (VNet) and Subnet.
+- Configure other settings as needed and click Review + Create and then Create.
+
+<img width="886" height="957" alt="Screenshot 2026-02-23 215051" src="https://github.com/user-attachments/assets/7b59446d-bc9d-49e0-b7f9-4d25fe46ab69" />
+
+<img width="965" height="580" alt="Screenshot 2026-02-23 215423" src="https://github.com/user-attachments/assets/7b525806-aa2e-44a6-acc9-5d17ac869574" />
+
+
+**4. Create a Linux (Ubuntu) Virtual Machine**
+
+- Navigate to Virtual Machines.
+- Select Create > Virtual Machine.
+- Provide the following details:
+    - Resource Group: Select the same Resource Group used for the Windows 10 VM.
+    - VM Name: Enter a name for your Linux (Ubuntu) VM.
+    - Image: Choose "Ubuntu Server".
+    - Authentication Type: Username/Password.
+    - Virtual Network: Select the previously created Virtual Network.
+    - Subnet: Ensure it matches the Subnet of the Windows 10 VM.
+- Configure other settings as needed and click Review + Create and then Create.
+
+<img width="885" height="1169" alt="Screenshot 2026-02-23 220647" src="https://github.com/user-attachments/assets/6d94436c-cf6b-4e02-a452-7dc8dbce2220" />
+
+<img width="918" height="850" alt="Screenshot 2026-02-23 220436" src="https://github.com/user-attachments/assets/11a25637-5b95-452b-b3db-649ddff3bddf" />
+
+
+
+**5. Verify Setup**
+- Ensure both VMs are in the same Virtual Network and Subnet.
+
+
+
+
+<h2>Purpose</h2>
+
+The purpose of this repository is to create the essential Azure resources—Virtual Machines, Resource Group, and Virtual Network—required to begin our project. The setup ensures both VMs are in the same Virtual Network and Subnet for seamless communication.
