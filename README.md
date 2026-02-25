@@ -2,11 +2,11 @@
 
 <h1>Azure Virtual Machine Setup</h1>
 
-This repository provides a guide to set up the necessary resources in Azure for our project. The setup includes creating a Resource Group, a Windows 10 Virtual Machine (VM), and a Linux (Ubuntu) Virtual Machine within the same Virtual Network (VNet) and Subnet. These resources will form the foundation for further project work.<br />
+This repository contains instructions for creating the required Azure resources for this project. This setup involves creating a resource group, deploying a windows 10 virtual machine, and a Linux (Ubuntu) virtual machine. Both virtual machines must be connected to the same Virtual Network (VNet) and Subnet. These components will serve as the base infrastructure for future project tasks. <br />
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Compute services)
 
 <h2>Operating Systems Used </h2>
 
@@ -69,11 +69,11 @@ This repository provides a guide to set up the necessary resources in Azure for 
 
 
 **5. Verify Setup**
-- Ensure both VMs are in the same Virtual Network and Subnet.
+- Ensure both Virtual Machines are in the same Virtual Network and Subnet for proper communication.
 
 
 
 
 <h2>Purpose</h2>
 
-The purpose of this repository is to create the essential Azure resources—Virtual Machines, Resource Group, and Virtual Network—required to begin our project. The setup ensures both VMs are in the same Virtual Network and Subnet for seamless communication.
+The goal of this repository is to set up the core Azure infrastructure needed for the project. The main components within the setup were creating Virtual Machines, a Resource Group, and a Virtual Network. The setup ensures both Virtual Machines are in the same Virtual Network and Subnet for seamless communication.
