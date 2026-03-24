@@ -12,15 +12,26 @@ This repository contains instructions for creating the required Azure resources 
 
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
-
+  
 <h2>Steps</h2>
 <img width="387" alt="Screenshot 2025-01-23 at 8 10 04 PM" src="https://github.com/user-attachments/assets/886eb6b5-b6c1-4b4b-ae98-8415a69a6a3b" />
 
+## 🔗 Related Project: Azure VM Setup
 
-**1. Access Azure Portal**
+Before performing network traffic analysis, the virtual machines used in this lab were deployed and configured in a previous project.
+
+You can view the full VM setup here:  
+👉 https://github.com/Ernanm280/azure-setup
+
+This includes:
+- Virtual Network (VNet) configuration
+- Windows 10 and Ubuntu VM deployment
+- Initial network connectivity setup
+
+*1. Access Azure Portal*
     - Open the [Azure](https://portal.azure.com/) Portal.
 
-**2. Create a Resource Group**
+*2. Create a Resource Group*
 
 - Navigate to Resource Groups.
 - Select Create.
@@ -32,7 +43,7 @@ This repository contains instructions for creating the required Azure resources 
 <img width="2055" height="526" alt="Screenshot 2026-02-23 214044" src="https://github.com/user-attachments/assets/3ad5f3e4-677c-44ee-997f-8d974ec29782" />
 
 
-**3. Create a Windows 10 Virtual Machine**
+*3. Create a Windows 10 Virtual Machine*
 
 - Navigate to Virtual Machines.
 - Select Create > Virtual Machine.
@@ -49,7 +60,7 @@ This repository contains instructions for creating the required Azure resources 
 <img width="965" height="580" alt="Screenshot 2026-02-23 215423" src="https://github.com/user-attachments/assets/7b525806-aa2e-44a6-acc9-5d17ac869574" />
 
 
-**4. Create a Linux (Ubuntu) Virtual Machine**
+*4. Create a Linux (Ubuntu) Virtual Machine*
 
 - Navigate to Virtual Machines.
 - Select Create > Virtual Machine.
@@ -68,7 +79,7 @@ This repository contains instructions for creating the required Azure resources 
 
 
 
-**5. Verify Setup**
+*5. Verify Setup*
 - Ensure both Virtual Machines are in the same Virtual Network and Subnet for proper communication.
 
 
