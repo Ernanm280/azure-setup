@@ -20,7 +20,7 @@ This repository contains instructions for creating the required Azure resources 
 
 **1. Access Azure Portal**
 
-Begin by opening the [Azure](https://portal.azure.com/) to initiate the creation of Azure resources. 
+Begin by opening the [Azure](https://portal.azure.com/) portal to initiate the creation of Azure resources. 
 
 **2. Create a Resource Group**
 
