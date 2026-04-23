@@ -31,8 +31,6 @@ Within the Azure Portal, navigate to Resource Groups creation and select **+ Cre
 
 <img width="640" height="447" alt="Screenshot 2026-02-23 213928" src="https://github.com/user-attachments/assets/241b7b32-b05e-41a3-8893-21851b2977fc" />
 
-<img width="2055" height="526" alt="Screenshot 2026-02-23 214044" src="https://github.com/user-attachments/assets/3ad5f3e4-677c-44ee-997f-8d974ec29782" />
-
 <br>
 <br>
 
