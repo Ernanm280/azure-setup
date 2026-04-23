@@ -20,9 +20,10 @@ This repository contains instructions for creating the required Azure resources 
 
 **1. Access Azure Portal**
 
-Begin by opening the [Azure](https://portal.azure.com/) portal to initiate the creation of Azure resources. 
+Sign in to the [Azure](https://portal.azure.com/) portal to begin provisioning cloud resources.
 
 **2. Create a Resource Group**
+
 
 Within the Azure Portal, navigate to Resource Groups creation and select **+ Create**. By configuring the resource group, provide a name and select a region, and then select
 **Review + Create** and then **Create**.
