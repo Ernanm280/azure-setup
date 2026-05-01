@@ -2,7 +2,7 @@
 
 <h1>Azure Virtual Machine Setup</h1>
 
-This repository contains instructions for creating the required Azure resources for this project. This setup involves creating a resource group, deploying a Windows 10 virtual machine, and a Linux (Ubuntu) virtual machine. Both virtual machines must be connected to the same Virtual Network (VNet) and Subnet. These components will serve as the base infrastructure for future project tasks. <br />
+This project demonstrates how to deploy and configure Azure virtual machines within a shared Virtual Network (VNet) to enable secure communication and foundational cloud infrastructure. This setup involves creating a resource group, deploying a Windows 10 virtual machine, and a Linux (Ubuntu) virtual machine. These components will serve as the base infrastructure for future project tasks. <br />
 
 <h2>Environments and Technologies Used</h2>
 
