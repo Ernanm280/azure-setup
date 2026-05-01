@@ -12,8 +12,16 @@ This repository contains instructions for creating the required Azure resources 
 
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
+
+<h2>Key Concepts Demonstrated</h2>
+
+- Azure Virtual Machine deployment  
+- Virtual Network (VNet) configuration  
+- Subnet alignment for VM communication  
+- Cross-platform connectivity (Windows & Linux)  
+- Cloud resource organization using Resource Groups  
   
-<h2>Deployment Proccess</h2>
+<h2>Deployment Process</h2>
 <img width="387" alt="Screenshot 2025-01-23 at 8 10 04 PM" src="https://github.com/user-attachments/assets/886eb6b5-b6c1-4b4b-ae98-8415a69a6a3b" />
 
 ---
@@ -25,8 +33,7 @@ Sign in to the [Azure](https://portal.azure.com/) portal to begin provisioning c
 **2. Create a Resource Group**
 
 
-Within the Azure Portal, navigate to Resource Groups creation and select **+ Create**. By configuring the resource group, provide a name and select a region, and then select
-**Review + Create** and then **Create**.
+Within the Azure Portal, navigate to Resource Groups creation and select **+ Create**. Provide a name and region for the Resource Group, then select **Review + Create**, followed by **Create**.
 
 <img width="1119" height="709" alt="image" src="https://github.com/user-attachments/assets/05caefb6-d866-4866-be2f-aff6908c85da" />
 
@@ -39,11 +46,11 @@ Within the Azure Portal, navigate to Resource Groups creation and select **+ Cre
 
 In the Azure Portal, navigate to Virtual Machines creation and select **+ Create**. 
 - Provide the following details:
-    - **Resource Group**: Select the Resource Group created earlier.
-    - **VM Name**: Enter a name for your Windows 10 VM.
-    - **Image**: Choose "Windows 10".
-    - **Authentication Type**: Username/Password.
-- Configure other settings as needed and click **Review + Create**, and then **Create**.
+    - **Resource Group**: Select the Resource Group created earlier
+    - **VM Name**: Enter a name for your Windows 10 VM
+    - **Image**: Choose "Windows 10"
+    - **Authentication Type**: Username/Password
+- Configure other settings as needed and click **Review + Create**, and then **Create**
 
 <img width="886" height="957" alt="Screenshot 2026-02-23 215051" src="https://github.com/user-attachments/assets/7b59446d-bc9d-49e0-b7f9-4d25fe46ab69" />
 
@@ -63,11 +70,11 @@ Adding a Virtual Network (VNet) is important because it creates a private and se
 
 In the Azure Portal, navigate to Virtual Machines creation and select **+ Create**.
 - Provide the following details:
-    - **Resource Group**: Select the same Resource Group used for the Windows 10 VM.
-    - **VM Name**: Enter a name for your Linux (Ubuntu) VM.
-    - **Image**: Choose "Ubuntu Server".
-    - **Authentication Type**: Username/Password.
-- Configure other settings as needed and click Review + Create and then Create.
+    - **Resource Group**: Select the same Resource Group used for the Windows 10 VM
+    - **VM Name**: Enter a name for your Linux (Ubuntu) VM
+    - **Image**: Choose "Ubuntu Server"
+    - **Authentication Type**: Username/Password
+- Configure other settings as needed and click **Review + Create**, and then **+ Create**
 
 <img width="885" height="1169" alt="Screenshot 2026-02-23 220647" src="https://github.com/user-attachments/assets/6d94436c-cf6b-4e02-a452-7dc8dbce2220" />
 
@@ -97,4 +104,4 @@ After deployment, both virtual machines were successfully created and are runnin
 
 <h2>Purpose</h2>
 
-The goal of this repository is to set up the core Azure infrastructure needed for the project. The main components within the setup were creating Virtual Machines, a Resource Group, and a Virtual Network. The setup ensures both Virtual Machines are in the same Virtual Network and Subnet for seamless communication.
+The purpose of this project is to build a foundational Azure cloud environment by deploying and configuring virtual machines within the same Virtual Network and Subnet. This setup enables secure internal communication and serves as a base for future networking, security, and traffic analysis tasks.
