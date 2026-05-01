@@ -50,7 +50,7 @@ In the Azure Portal, navigate to Virtual Machines creation and select **+ Create
 <br>
 <br>
 
-- In the Networking tab, allow Azure to create a new Virtual Network (VNet) and Subnet. 
+- In the Networking tab, allow Azure to create a new Virtual Network (VNet) and Subnet, naming the VNet "Lab-Vnet".   
 
 Adding a Virtual Network (VNet) is important because it creates a private and secure network environment for Azure resources like virtual machines to communicate with each other.
 
